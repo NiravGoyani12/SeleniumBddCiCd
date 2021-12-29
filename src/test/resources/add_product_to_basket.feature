@@ -6,5 +6,5 @@ Feature: Add product to basket
 
   Scenario: View books
     Given I am on the home page
-    When I click on the "Books"
-    Then I should see result page
+#    When I click on the "Books"
+#    Then I should see result page

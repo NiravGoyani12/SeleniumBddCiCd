@@ -25,4 +25,4 @@ test:
   artifacts:
     when: always
     paths:
-      - target/generated-report
+      - target/generated-report 

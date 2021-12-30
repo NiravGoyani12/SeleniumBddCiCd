@@ -32,9 +32,10 @@ public class DriverManager {
         /*Run on Remote CI - CD */
         ChromeOptions options = new ChromeOptions();
         options.setHeadless(true);
+        options.addArguments("--window-size=1920,1080");
         driver = new ChromeDriver(options);
 
-//        /*Run Locally  */
+        /*Run Locally  */
 //        driver = new ChromeDriver();
         break;
       case "edge":
